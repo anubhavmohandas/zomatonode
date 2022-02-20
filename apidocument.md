@@ -37,13 +37,17 @@ data respect to cuisine and cost (cuisine filter + cost filter)
 > Local - http://localhost:6700/filter/1?lcost=250&hcost=500&cuisineId=1
 > Live - https://zomatonod.herokuapp.com/filter/2?lcost=250&hcost=500&cuisineId=1
 
-sort sort low to high in same quickSearch
+sort low to high in same quickSearch
 > Local - http://localhost:6700/filter/1?lcost=250&hcost=500&cuisineId=1&sort=1
 > Live - https://zomatonod.herokuapp.com/filter/1?lcost=250&hcost=500&cuisineId=1&sort=1
 
 sort high to low in same quickSearch
 > Local - http://localhost:6700/filter/1?lcost=250&hcost=500&cuisineId=1&sort=-1
 > Live - https://zomatonod.herokuapp.com/filter/1?lcost=250&hcost=500&cuisineId=1&sort=-1
+
+All restaurant Data sort
+> Local - http://localhost:6700/filter/1?sort=1
+> Live - https://zomatonod.herokuapp.com/filter/1?sort=1
 
 Paginations
 > Local - http://localhost:6700/filter/1?cuisineId=1&skip=12&limit=1
